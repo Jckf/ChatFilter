@@ -1,0 +1,13 @@
+# Filter mode.
+# 0: Do nothing. Filter is disabled.
+# 1: Show the message in chat, but only to the sender. Other users don't see it.
+# 2: Block the message completely.
+# 3: Block with feedback. Dont show the message to anyone, but let the sender know why.
+# 4: Kick the sender, and tell him why.
+mode: 0
+
+# Message to use in mode 3.
+block-message: You cannot chat before moving.
+
+# Message to use in mode 4.
+kick-message: You cannot chat before moving.
